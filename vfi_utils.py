@@ -11,9 +11,8 @@ import torchvision.transforms.functional as transform
 from comfy.model_management import soft_empty_cache, get_torch_device
 import numpy as np
 
-wget -O <ckpts/rife/rife49.pth> "https://huggingface.co/Isi99999/Frame_Interpolation_Models/resolve/main/rife49.pth"
-
 BASE_MODEL_DOWNLOAD_URLS = [
+    "https://github.com/saibaraburabo-blip/ModelTest/releases/download/model/",
     "https://github.com/styler00dollar/VSGAN-tensorrt-docker/releases/download/models/",
     "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation/releases/download/models/",
     "https://github.com/dajes/frame-interpolation-pytorch/releases/download/v1.0.0/",
