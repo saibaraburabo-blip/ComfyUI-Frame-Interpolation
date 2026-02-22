@@ -12,10 +12,10 @@ from comfy.model_management import soft_empty_cache, get_torch_device
 import numpy as np
 
 BASE_MODEL_DOWNLOAD_URLS = [
+    "https://huggingface.co/wavespeed/misc/tree/main/rife/"
     "https://github.com/styler00dollar/VSGAN-tensorrt-docker/releases/download/models/",
     "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation/releases/download/models/",
     "https://github.com/dajes/frame-interpolation-pytorch/releases/download/v1.0.0/",
-    "https://huggingface.co/wavespeed/misc/tree/main/rife/"
 ]
 
 config_path = os.path.join(os.path.dirname(__file__), "./config.yaml")
